@@ -1,13 +1,16 @@
-# Python Technical Assessment  
+# Python Technical Assessment 
+# python program to generate Fibonacci Series until 'n' value
+ 
+   n=int(input("Enter the value of 'n':"))
+   a=0
+   b=1
+   Sum=0
+   Count=1
+   Print("Fibonacci Series:",end="")
+   while (count<=n):
+    Print(sum,end=" ")
+   Count += 1
+   a=b
+   b=sum
+   Sum= a+b
 
-- Create a repository on Github called ``SCAMP Assesment`
-
-- Using Python, write out a function to output the fibbonacci sequence of a given number
-
-## Submission: 
-
-- Push your solution to github repo created 
-
-- submit the URL on the application form here: https://bit.ly/SCA-mentee-C3
-
-*Good luck!*
